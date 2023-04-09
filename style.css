@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+
+}
+
+body{
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-canvas{
+    display: grid;
+    margin-left : 100px;
+    grid-template-columns: repeat(28,1fr);
+}
+
+.grid-cell{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+}

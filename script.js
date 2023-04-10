@@ -41,8 +41,8 @@ function setCell(i,color){
     CELLS[i].style.backgroundColor = color
 }
 function RGBtoGrayScale(r,g,b){
-    // return 0.3*r + 0.59*g + 0.11*b
-    return (r+g+b)/3
+    return 0.3*r + 0.59*g + 0.11*b
+    // return (r+g+b)/3
 }
 function processImage(){
     scaledCtx.drawImage(canvas, 0, 0, canvas.width, canvas.height, 0, 0, scaledCanvas.width, scaledCanvas.height);
